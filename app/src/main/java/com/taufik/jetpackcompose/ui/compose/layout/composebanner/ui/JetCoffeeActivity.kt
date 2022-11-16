@@ -7,6 +7,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -91,7 +93,7 @@ fun CategoryRowPreview() {
 
 @Composable
 fun JetCoffeeApp(modifier: Modifier = Modifier) {
-    Column(modifier = modifier) {
+    Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
         Banner()
         SectionText(title = stringResource(R.string.section_category))
         CategoryRow()
