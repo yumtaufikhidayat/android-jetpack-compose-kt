@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add menu category and section text.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/ui/components/MenuItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add vertical scroll on menu section.">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/ui/JetCoffeeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/ui/JetCoffeeActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -367,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668556791117</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add menu section.">
+      <created>1668641280734</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668641280734</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add menu section.">
+      <created>1668641292186</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668641292186</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add vertical scroll on menu section.">
+      <created>1668641421893</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668641421893</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +408,8 @@
     <MESSAGE value="Update project." />
     <MESSAGE value="Add banner to JetCoffee app." />
     <MESSAGE value="Add menu category and section text." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add menu category and section text." />
+    <MESSAGE value="Add menu section." />
+    <MESSAGE value="Add vertical scroll on menu section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add vertical scroll on menu section." />
   </component>
 </project>

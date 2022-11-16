@@ -92,7 +92,7 @@ fun CategoryRowPreview() {
 }
 
 @Composable
-fun JetCoffeeApp(modifier: Modifier = Modifier) {
+fun JetCoffeeApp() {
     Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
         Banner()
         SectionText(title = stringResource(R.string.section_category))
