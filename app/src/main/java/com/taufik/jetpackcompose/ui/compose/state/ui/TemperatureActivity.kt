@@ -39,7 +39,10 @@ fun TemperatureApp() {
         modifier = Modifier.fillMaxSize(),
         color = MaterialTheme.colors.background
     ) {
-        StatefulTemperatureInput()
+        Column {
+            StatefulTemperatureInput()
+            ConverterApp()
+        }
     }
 }
 
@@ -67,6 +70,43 @@ fun StatefulTemperatureInput(
     }
 }
 
+@Composable
+fun StatelessTemperatureInput(
+    input: String,
+    output: String,
+    onValueChange: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(modifier.padding(16.dp)) {
+        Text(
+            text = stringResource(R.string.stateless_converter),
+            style = MaterialTheme.typography.h5
+        )
+        OutlinedTextField(
+            value = input,
+            label = { Text(text = stringResource(id = R.string.enter_celsius)) },
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+            onValueChange = onValueChange
+        )
+        Text(text = stringResource(id = R.string.temperature_fahrenheit, output))
+    }
+}
+
+@Composable
+fun ConverterApp(modifier: Modifier = Modifier) {
+    var input by remember { mutableStateOf("") }
+    var output by remember { mutableStateOf("") }
+    Column(modifier) {
+        StatelessTemperatureInput(
+            input = input,
+            output = output,
+            onValueChange = { newInput ->
+                input = newInput
+                output = convertToFahrenheit(newInput)
+            })
+    }
+}
+
 private fun convertToFahrenheit(celsius: String): String {
     return celsius.toDoubleOrNull()?.let {
         (it * 9 / 5) + 32
@@ -82,5 +122,6 @@ private fun convertToFahrenheit(celsius: String): String {
 fun DefaultPreview() {
     JetpackComposeTheme {
         TemperatureApp()
+        ConverterApp()
     }
 }
