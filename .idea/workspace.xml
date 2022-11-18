@@ -9,13 +9,23 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add bottom navigation compose." />
+    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add stateful converter.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/TemperatureActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/ui/theme/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/taufik/.android/avd/Pixel_3_XL_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.8.100:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -60,6 +70,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="state/learn-make-temperature-converter-compose-app" />
+                    <option name="lastUsedInstant" value="1668732052" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1668730835" />
                   </RecentBranch>
@@ -74,10 +88,6 @@
                   <RecentBranch>
                     <option name="branchName" value="layout/learn-menu-jetcoffee" />
                     <option name="lastUsedInstant" value="1668556861" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="layout/learn-menu-category-jetcoffee" />
-                    <option name="lastUsedInstant" value="1668383219" />
                   </RecentBranch>
                 </list>
               </option>
@@ -111,6 +121,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+    <key name="android.template.-797349389">
+      <recent name="com.taufik.jetpackcompose.ui.compose.state.ui" />
     </key>
     <key name="android.template.-1629653717">
       <recent name="com.taufik.belajarmembuataplikasiandroiddenganjetpackcompose.ui.compose.basicconcepts.composebasic" />
@@ -419,7 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668730813290</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Move package to each component.">
+      <created>1668732266617</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668732266617</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Move package to each component.">
+      <created>1668732274939</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668732274939</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,6 +472,8 @@
     <MESSAGE value="Update project." />
     <MESSAGE value="Add slot base compose." />
     <MESSAGE value="Add bottom navigation compose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bottom navigation compose." />
+    <MESSAGE value="Move package to each component." />
+    <MESSAGE value="Add stateful converter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add stateful converter." />
   </component>
 </project>

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Jetpack Compose</string>
+
+    <!--Jet Coffee App-->
     <string name="title_activity_jet_coffee">JetCoffeeActivity</string>
     <string name="placeholder_search">Cari kopi pilihanmu!</string>
     <string name="category_all">All</string>
@@ -16,4 +18,13 @@
     <string name="menu_home">Home</string>
     <string name="menu_favorite">Favorite</string>
     <string name="menu_profile">Profile</string>
+
+    <!--Temperature App-->
+    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="stateful_converter">Stateful Converter</string>
+    <string name="stateless_converter">Stateless Converter</string>
+    <string name="two_way_converter">Two Way Converter</string>
+    <string name="enter_celsius">Enter temperature in Celsius</string>
+    <string name="temperature_fahrenheit">Temperature in Fahrenheit : %s</string>
+    <string name="enter_temperature">Enter temperature in %s</string>
 </resources>
