@@ -22,10 +22,7 @@ import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.Menu
 import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.dummyBestSellerMenu
 import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.dummyCategory
 import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.dummyMenu
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.CategoryItem
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.MenuItem
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.SearchBar
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.SectionText
+import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.*
 import com.taufik.jetpackcompose.ui.theme.JetpackComposeTheme
 
 class JetCoffeeActivity : ComponentActivity() {
@@ -95,12 +92,18 @@ fun CategoryRowPreview() {
 fun JetCoffeeApp() {
     Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
         Banner()
-        SectionText(title = stringResource(R.string.section_category))
-        CategoryRow()
-        SectionText(title = stringResource(R.string.section_favorite_menu))
-        MenuRow(listMenu = dummyMenu)
-        SectionText(title = stringResource(R.string.section_best_seller_menu))
-        MenuRow(listMenu = dummyBestSellerMenu)
+        HomeSection(
+            title = stringResource(R.string.section_category),
+            content = { CategoryRow() }
+        )
+        HomeSection(
+            title = stringResource(R.string.section_favorite_menu),
+            content = { MenuRow(listMenu = dummyMenu) }
+        )
+        HomeSection(
+            title = stringResource(R.string.section_best_seller_menu),
+            content = { MenuRow(listMenu = dummyBestSellerMenu) }
+        )
     }
 }
 
