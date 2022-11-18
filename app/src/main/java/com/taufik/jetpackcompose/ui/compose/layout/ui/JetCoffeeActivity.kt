@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui
+package com.taufik.jetpackcompose.ui.compose.layout.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,8 +23,11 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.taufik.jetpackcompose.R
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.*
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components.*
+import com.taufik.jetpackcompose.ui.compose.layout.model.*
+import com.taufik.jetpackcompose.ui.compose.layout.ui.components.CategoryItem
+import com.taufik.jetpackcompose.ui.compose.layout.ui.components.HomeSection
+import com.taufik.jetpackcompose.ui.compose.layout.ui.components.MenuItem
+import com.taufik.jetpackcompose.ui.compose.layout.ui.components.SearchBar
 import com.taufik.jetpackcompose.ui.theme.JetpackComposeTheme
 import com.taufik.jetpackcompose.ui.theme.LightGray
 

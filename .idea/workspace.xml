@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add slot base compose.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/model/BottomBarItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/ui/JetCoffeeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/layout/composebanner/ui/JetCoffeeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/theme/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/theme/Theme.kt" afterDir="false" />
-    </list>
+    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add bottom navigation compose." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,12 +60,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="layout/learn-bottom-navigation-compose" />
-                    <option name="lastUsedInstant" value="1668729785" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1668730835" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1668729729" />
+                    <option name="branchName" value="layout/learn-bottom-navigation-compose" />
+                    <option name="lastUsedInstant" value="1668729785" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="layout/learn-slot-based-compose" />
@@ -424,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668729695022</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add bottom navigation compose.">
+      <created>1668730813290</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668730813290</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,6 +444,7 @@
     <MESSAGE value="Add vertical scroll on menu section." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Add slot base compose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add slot base compose." />
+    <MESSAGE value="Add bottom navigation compose." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bottom navigation compose." />
   </component>
 </project>

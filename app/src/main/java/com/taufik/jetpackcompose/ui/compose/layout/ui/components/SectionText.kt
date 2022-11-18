@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components
+package com.taufik.jetpackcompose.ui.compose.layout.ui.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme

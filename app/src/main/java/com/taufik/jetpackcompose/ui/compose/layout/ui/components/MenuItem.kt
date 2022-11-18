@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.ui.compose.layout.composebanner.ui.components
+package com.taufik.jetpackcompose.ui.compose.layout.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -15,8 +15,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.taufik.jetpackcompose.ui.compose.layout.composebanner.model.Menu
 import com.taufik.jetpackcompose.R
+import com.taufik.jetpackcompose.ui.compose.layout.model.Menu
 
 @Composable
 fun MenuItem(

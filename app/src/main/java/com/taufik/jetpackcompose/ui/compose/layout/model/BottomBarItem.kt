@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.ui.compose.layout.composebanner.model
+package com.taufik.jetpackcompose.ui.compose.layout.model
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

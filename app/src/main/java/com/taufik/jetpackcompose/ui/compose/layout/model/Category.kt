@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.ui.compose.layout.composebanner.model
+package com.taufik.jetpackcompose.ui.compose.layout.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -21,4 +21,4 @@ val dummyCategory = listOf(
     R.drawable.icon_category_latte to R.string.category_latte,
     R.drawable.icon_category_macchiato to R.string.category_macchiato,
     R.drawable.icon_category_mocha to R.string.category_mocha,
-).map { Category(it.first, it.second)}
+).map { Category(it.first, it.second) }
