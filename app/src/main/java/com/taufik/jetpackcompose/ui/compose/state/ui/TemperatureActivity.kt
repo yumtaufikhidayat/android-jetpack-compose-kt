@@ -19,7 +19,8 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.taufik.jetpackcompose.R
-import com.taufik.jetpackcompose.ui.compose.state.ui.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.ui.compose.state.components.Scale
+import com.taufik.jetpackcompose.ui.theme.JetpackComposeTheme
 
 class TemperatureActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,6 +43,7 @@ fun TemperatureApp() {
         Column {
             StatefulTemperatureInput()
             ConverterApp()
+            TwoWayConverterApp()
         }
     }
 }
@@ -107,9 +109,60 @@ fun ConverterApp(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun TwoWayConverterApp(modifier: Modifier = Modifier) {
+    var celsius by remember { mutableStateOf("") }
+    var fahrenheit by remember { mutableStateOf("") }
+    Column(modifier.padding(16.dp)) {
+        Text(
+            text = stringResource(id = R.string.two_way_converter),
+            style = MaterialTheme.typography.h5
+        )
+        GeneralTemperatureInput(
+            scale = Scale.CELSIUS,
+            input = celsius,
+            onValueChange = { newInput ->
+                celsius = newInput
+                fahrenheit = convertToFahrenheit(newInput)
+            }
+        )
+        GeneralTemperatureInput(
+            scale = Scale.FAHRENHEIT,
+            input = fahrenheit,
+            onValueChange = { newInput ->
+                fahrenheit = newInput
+                celsius = convertToCelsius(newInput)
+            }
+        )
+    }
+}
+
+@Composable
+fun GeneralTemperatureInput(
+    scale: Scale,
+    input: String,
+    onValueChange: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(modifier) {
+        OutlinedTextField(
+            value = input,
+            label = { Text(text = stringResource(id = R.string.enter_temperature, scale.scaleName)) },
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+            onValueChange = onValueChange
+        )
+    }
+}
+
 private fun convertToFahrenheit(celsius: String): String {
     return celsius.toDoubleOrNull()?.let {
         (it * 9 / 5) + 32
+    }.toString()
+}
+
+private fun convertToCelsius(fahrenheit: String): String {
+    return fahrenheit.toDoubleOrNull()?.let {
+        (it - 32) * 5 / 9
     }.toString()
 }
 
@@ -123,5 +176,6 @@ fun DefaultPreview() {
     JetpackComposeTheme {
         TemperatureApp()
         ConverterApp()
+        TwoWayConverterApp()
     }
 }
