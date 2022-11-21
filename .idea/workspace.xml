@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add navigation drawer and snackbar.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/utils/MyNavDrawerState.kt" afterDir="false" />
+    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add holder state on navigation drawer.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/NavigationDrawerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/state/ui/NavigationDrawerActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +63,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="state/learn-state-holder-on-navigation-drawer" />
-                    <option name="lastUsedInstant" value="1668986723" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1668995881" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1668986670" />
+                    <option name="branchName" value="state/learn-state-holder-on-navigation-drawer" />
+                    <option name="lastUsedInstant" value="1668986723" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="state/learn-navigation-drawer-and-snackbar" />
@@ -479,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668986639325</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add holder state on navigation drawer.">
+      <created>1668995855229</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668995855229</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,6 +515,7 @@
     <MESSAGE value="Add stateless converter." />
     <MESSAGE value="Add two ways temperature converter." />
     <MESSAGE value="Add navigation drawer and snackbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add navigation drawer and snackbar." />
+    <MESSAGE value="Add holder state on navigation drawer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add holder state on navigation drawer." />
   </component>
 </project>
