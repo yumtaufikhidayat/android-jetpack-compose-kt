@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Add holder state on navigation drawer.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="Update project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -484,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668995855229</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Update project.">
+      <created>1669073933398</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669073933398</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +512,6 @@
     <MESSAGE value="Add menu category and section text." />
     <MESSAGE value="Add menu section." />
     <MESSAGE value="Add vertical scroll on menu section." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Add slot base compose." />
     <MESSAGE value="Add bottom navigation compose." />
     <MESSAGE value="Move package to each component." />
@@ -516,6 +520,7 @@
     <MESSAGE value="Add two ways temperature converter." />
     <MESSAGE value="Add navigation drawer and snackbar." />
     <MESSAGE value="Add holder state on navigation drawer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add holder state on navigation drawer." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
 </project>
