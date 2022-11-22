@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement scroll to top list pahlawan.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
@@ -529,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669076637467</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Implement scroll to top list pahlawan.">
+      <created>1669115440606</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669115440606</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -562,6 +569,7 @@
     <MESSAGE value="Add holder state on navigation drawer." />
     <MESSAGE value="Add list heroes." />
     <MESSAGE value="Update project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
+    <MESSAGE value="Implement scroll to top list pahlawan." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement scroll to top list pahlawan." />
   </component>
 </project>
