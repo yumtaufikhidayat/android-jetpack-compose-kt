@@ -40,4 +40,5 @@
     <string name="subscribe_question">Subscribe?</string>
     <string name="subscribed_info">Subscribed. You will informed when the feature is ready</string>
     <string name="title_activity_navigation_drawers">NavigationDrawersActivity</string>
+    <string name="title_activity_jet_hero">JetHeroActivity</string>
 </resources>
