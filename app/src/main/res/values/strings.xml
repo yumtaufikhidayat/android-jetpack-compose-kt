@@ -41,4 +41,8 @@
     <string name="subscribed_info">Subscribed. You will informed when the feature is ready</string>
     <string name="title_activity_navigation_drawers">NavigationDrawersActivity</string>
     <string name="title_activity_jet_hero">JetHeroActivity</string>
+
+    <!--Jet Hero app-->
+    <string name="scroll_to_top">Scroll to Top</string>
+    <string name="search_hero">Cari pahlawanmu</string>
 </resources>

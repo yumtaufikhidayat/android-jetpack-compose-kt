@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project." />
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +65,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="lazy-layout/scroll-to-top-list-pahlawan" />
+                    <option name="lastUsedInstant" value="1669076646" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="lazy-layout/list-pahlawan" />
                     <option name="lastUsedInstant" value="1669074370" />
                   </RecentBranch>
@@ -75,10 +83,6 @@
                   <RecentBranch>
                     <option name="branchName" value="state/learn-navigation-drawer-and-snackbar" />
                     <option name="lastUsedInstant" value="1668816261" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="state/learn-make-temperature-converter-compose-app" />
-                    <option name="lastUsedInstant" value="1668732052" />
                   </RecentBranch>
                 </list>
               </option>
@@ -204,7 +208,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f2e1763-d547-4317-8a0f-81758b895b65" name="Changes" comment="" />
+      <changelist id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project." />
       <created>1667306642098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -497,7 +501,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669076323597</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update project.">
+      <created>1669076577662</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669076577662</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Update project.">
+      <created>1669076617100</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669076617100</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Update project.">
+      <created>1669076630353</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669076630353</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Update project.">
+      <created>1669076637467</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669076637467</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
