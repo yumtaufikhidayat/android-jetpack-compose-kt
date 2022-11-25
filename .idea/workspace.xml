@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Add viewmodel.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement search feature.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/JetHeroesViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/data/HeroRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/lazylayout/jetheroes/data/HeroRepository.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +63,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="lazy-layout/learn-search-feature" />
-                    <option name="lastUsedInstant" value="1669158436" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1669159251" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669158359" />
+                    <option name="branchName" value="lazy-layout/learn-search-feature" />
+                    <option name="lastUsedInstant" value="1669158436" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="lazy-layout/sticky-header-and-viewmodel" />
@@ -214,20 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initialize compose project.">
-      <created>1667306802443</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667306802443</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implement preview on device.">
-      <created>1667307805656</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1667307805656</updated>
     </task>
     <task id="LOCAL-00003" summary="Implement preview on device.">
       <created>1667307810863</created>
@@ -558,7 +541,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669158322714</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Update project.">
+      <created>1669159209077</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669159209078</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Implement search feature.">
+      <created>1669159225331</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669159225331</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,10 +587,11 @@
     <MESSAGE value="Add navigation drawer and snackbar." />
     <MESSAGE value="Add holder state on navigation drawer." />
     <MESSAGE value="Add list heroes." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Implement scroll to top list pahlawan." />
     <MESSAGE value="Add sticky header." />
     <MESSAGE value="Add viewmodel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add viewmodel." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Implement search feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement search feature." />
   </component>
 </project>
