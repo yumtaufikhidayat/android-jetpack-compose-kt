@@ -9,15 +9,55 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement search feature.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/JetRewardActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/JetRewardApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/data/RewardRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/di/Injection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/model/FakeRewardDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/model/OrderReward.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/model/Reward.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/common/UiState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/components/CartItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/components/OrderButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/components/ProductCounter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/components/RewardItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/cart/CartScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/cart/CartState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/cart/CartViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/detail/DetailRewardViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/detail/DetailScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/home/HomeScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen/profile/ProfileScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/theme/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reward_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.8.102:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.8.100:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -43,10 +83,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -63,8 +104,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="navigation/learn-jetreward" />
+                    <option name="lastUsedInstant" value="1669415897" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669159251" />
+                    <option name="lastUsedInstant" value="1669415855" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="lazy-layout/learn-search-feature" />
@@ -77,10 +122,6 @@
                   <RecentBranch>
                     <option name="branchName" value="lazy-layout/scroll-to-top-list-pahlawan" />
                     <option name="lastUsedInstant" value="1669076646" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="lazy-layout/list-pahlawan" />
-                    <option name="lastUsedInstant" value="1669074370" />
                   </RecentBranch>
                 </list>
               </option>
@@ -108,15 +149,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward/ui/screen" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/ui/compose/navigation/jetreward" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     </key>
     <key name="android.template.-797349389">
       <recent name="com.taufik.jetpackcompose.ui.compose.state.ui" />
+    </key>
+    <key name="android.template.2135104857">
+      <recent name="com.taufik.jetpackcompose.ui.compose.navigation.jetreward" />
     </key>
     <key name="android.template.-1629653717">
       <recent name="com.taufik.belajarmembuataplikasiandroiddenganjetpackcompose.ui.compose.basicconcepts.composebasic" />
@@ -211,13 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement preview on device.">
-      <created>1667307810863</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1667307810863</updated>
     </task>
     <task id="LOCAL-00004" summary="Update project.">
       <created>1667344328728</created>
@@ -555,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669159225331</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Update project.">
+      <created>1669415619771</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669415619772</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,8 +636,8 @@
     <MESSAGE value="Implement scroll to top list pahlawan." />
     <MESSAGE value="Add sticky header." />
     <MESSAGE value="Add viewmodel." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Implement search feature." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement search feature." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
 </project>
