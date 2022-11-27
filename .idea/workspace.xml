@@ -9,24 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update cart screen.">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardActivity.kt" afterDir="false" />
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Add send data by arguments to detail screen. Also navigate screen to cart screen.">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/OrderButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/OrderButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/ProductCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/ProductCounter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/RewardItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/components/RewardItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/navigation/Screen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/navigation/Screen.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/cart/CartScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/cart/CartScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/detail/DetailScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/detail/DetailScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/home/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/home/HomeScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/theme/Theme.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +66,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="navigation/learn-send-argument-compose-jetreward" />
-                    <option name="lastUsedInstant" value="1669520270" />
+                    <option name="branchName" value="navigation/learn-navigate-to-other-app-jetreward" />
+                    <option name="lastUsedInstant" value="1669531282" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669520220" />
+                    <option name="lastUsedInstant" value="1669531255" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="navigation/learn-send-argument-compose-jetreward" />
+                    <option name="lastUsedInstant" value="1669520270" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="navigation/learn-bottom-navigation-jetreward" />
@@ -95,10 +84,6 @@
                   <RecentBranch>
                     <option name="branchName" value="navigation/learn-jetreward" />
                     <option name="lastUsedInstant" value="1669415897" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="lazy-layout/learn-search-feature" />
-                    <option name="lastUsedInstant" value="1669158436" />
                   </RecentBranch>
                 </list>
               </option>
@@ -235,13 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Create compose basic activity.">
-      <created>1667347383981</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1667347383981</updated>
     </task>
     <task id="LOCAL-00010" summary="Implement list of data.">
       <created>1667350900357</created>
@@ -579,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669520104556</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Add send data by arguments to detail screen. Also navigate screen to cart screen.">
+      <created>1669531198834</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1669531198834</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create compose basic activity." />
     <MESSAGE value="Implement list of data." />
     <MESSAGE value="Add banner to JetCoffee app." />
     <MESSAGE value="Add menu category and section text." />
@@ -619,6 +603,7 @@
     <MESSAGE value="Update packages." />
     <MESSAGE value="Update packages and add bottom navigation view." />
     <MESSAGE value="Update cart screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update cart screen." />
+    <MESSAGE value="Add send data by arguments to detail screen. Also navigate screen to cart screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add send data by arguments to detail screen. Also navigate screen to cart screen." />
   </component>
 </project>
