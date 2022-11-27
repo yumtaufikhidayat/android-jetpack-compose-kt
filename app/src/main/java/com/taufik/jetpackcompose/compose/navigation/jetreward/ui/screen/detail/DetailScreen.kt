@@ -30,7 +30,7 @@ import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.ViewModelFactor
 import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.common.UiState
 import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.components.OrderButton
 import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.components.ProductCounter
-import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetRewardTheme
 
 @Composable
 fun DetailScreen(
@@ -156,7 +156,7 @@ fun DetailContent(
 @Preview(showBackground = true, device = Devices.PIXEL_4)
 @Composable
 fun DetailContentPreview() {
-    JetpackComposeTheme {
+    JetRewardTheme {
         DetailContent(
             R.drawable.reward_4,
             "Jaket Hoodie Dicoding",

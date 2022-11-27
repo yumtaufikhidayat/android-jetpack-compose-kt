@@ -7,13 +7,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
-import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetRewardTheme
 
 class JetRewardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            JetpackComposeTheme {
+            JetRewardTheme() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

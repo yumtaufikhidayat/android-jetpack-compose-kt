@@ -19,7 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.compose.navigation.jetreward.ui.theme.JetRewardTheme
 
 @Composable
 fun ProductCounter(
@@ -85,7 +85,7 @@ fun ProductCounter(
 @Preview(showBackground = true)
 @Composable
 fun ProductCounterPreview() {
-    JetpackComposeTheme {
+    JetRewardTheme {
         ProductCounter(
             orderId = 1,
             orderCount = 0,
