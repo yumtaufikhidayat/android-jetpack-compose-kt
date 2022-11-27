@@ -17,7 +17,7 @@
         <activity
             android:name=".ui.compose.lazylayout.jetheroes.JetHeroActivity"
             android:exported="false"
-            android:label="@string/title_activity_jet_reward"
+            android:label="@string/title_activity_jet_hero"
             android:theme="@style/Theme.JetpackCompose">
             <meta-data
                 android:name="android.app.lib_name"
@@ -26,7 +26,7 @@
         <activity
             android:name=".ui.compose.state.ui.NavigationDrawerActivity"
             android:exported="false"
-            android:label="@string/title_activity_jet_hero"
+            android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/Theme.JetpackCompose">
             <meta-data
                 android:name="android.app.lib_name"
@@ -35,7 +35,7 @@
         <activity
             android:name=".ui.compose.state.ui.TemperatureActivity"
             android:exported="false"
-            android:label="@string/title_activity_navigation_drawer"
+            android:label="@string/title_activity_temperature"
             android:theme="@style/Theme.JetpackCompose">
             <meta-data
                 android:name="android.app.lib_name"
@@ -44,7 +44,7 @@
         <activity
             android:name=".ui.compose.basic.composebasic.ComposeBasicActivity"
             android:exported="false"
-            android:label="@string/title_activity_temperature"
+            android:label="@string/title_activity_compose_basic"
             android:theme="@style/Theme.JetpackCompose">
             <meta-data
                 android:name="android.app.lib_name"
@@ -67,7 +67,7 @@
         <activity
             android:name=".ui.compose.navigation.jetreward.JetRewardActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_jet_reward"
             android:theme="@style/Theme.JetpackCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

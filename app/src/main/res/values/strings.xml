@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Jetpack Compose</string>
 
+    <!--Compose Basic App-->
+    <string name="title_activity_compose_basic">ComposeBasicActivity</string>
+
     <!--Jet Coffee App-->
     <string name="title_activity_jet_coffee">JetCoffeeActivity</string>
     <string name="placeholder_search">Cari kopi pilihanmu!</string>
