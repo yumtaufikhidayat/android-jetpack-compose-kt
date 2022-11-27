@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Add send data by arguments to detail screen. Also navigate screen to cart screen.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Add navigate to another app by using intent.">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardApp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/cart/CartScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ui/screen/cart/CartScreen.kt" afterDir="false" />
     </list>
@@ -220,13 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Implement list of data.">
-      <created>1667350900357</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1667350900357</updated>
     </task>
     <task id="LOCAL-00011" summary="Update project.">
       <created>1667354046994</created>
@@ -564,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669531198834</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Add navigate to another app by using intent.">
+      <created>1669531843482</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1669531843482</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement list of data." />
     <MESSAGE value="Add banner to JetCoffee app." />
     <MESSAGE value="Add menu category and section text." />
     <MESSAGE value="Add menu section." />
@@ -604,6 +610,7 @@
     <MESSAGE value="Update packages and add bottom navigation view." />
     <MESSAGE value="Update cart screen." />
     <MESSAGE value="Add send data by arguments to detail screen. Also navigate screen to cart screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add send data by arguments to detail screen. Also navigate screen to cart screen." />
+    <MESSAGE value="Add navigate to another app by using intent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add navigate to another app by using intent." />
   </component>
 </project>
