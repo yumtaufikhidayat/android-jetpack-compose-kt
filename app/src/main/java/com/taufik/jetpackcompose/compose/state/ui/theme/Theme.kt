@@ -1,4 +1,4 @@
-package com.taufik.jetpackcompose.compose.state.ui.ui.theme
+package com.taufik.jetpackcompose.compose.state.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

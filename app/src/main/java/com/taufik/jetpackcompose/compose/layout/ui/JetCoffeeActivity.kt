@@ -28,7 +28,7 @@ import com.taufik.jetpackcompose.compose.layout.ui.components.CategoryItem
 import com.taufik.jetpackcompose.compose.layout.ui.components.HomeSection
 import com.taufik.jetpackcompose.compose.layout.ui.components.MenuItem
 import com.taufik.jetpackcompose.compose.layout.ui.components.SearchBar
-import com.taufik.jetpackcompose.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.compose.state.ui.theme.JetpackComposeTheme
 import com.taufik.jetpackcompose.ui.theme.LightGray
 
 class JetCoffeeActivity : ComponentActivity() {

@@ -10,7 +10,7 @@ import androidx.compose.ui.res.stringResource
 import com.taufik.jetpackcompose.R
 
 @Composable
-fun ProfileScreen(modifier: Modifier) {
+fun ProfileScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center

@@ -15,7 +15,7 @@
         android:theme="@style/Theme.JetpackCompose"
         tools:targetApi="31">
         <activity
-            android:name=".ui.compose.lazylayout.jetheroes.JetHeroActivity"
+            android:name=".compose.lazylayout.jetheroes.JetHeroActivity"
             android:exported="false"
             android:label="@string/title_activity_jet_hero"
             android:theme="@style/Theme.JetpackCompose">
@@ -24,7 +24,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.compose.state.ui.NavigationDrawerActivity"
+            android:name=".compose.state.ui.NavigationDrawerActivity"
             android:exported="false"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/Theme.JetpackCompose">
@@ -33,7 +33,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.compose.state.ui.TemperatureActivity"
+            android:name=".compose.state.ui.TemperatureActivity"
             android:exported="false"
             android:label="@string/title_activity_temperature"
             android:theme="@style/Theme.JetpackCompose">
@@ -42,7 +42,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.compose.basic.composebasic.ComposeBasicActivity"
+            android:name=".compose.basic.composebasic.ComposeBasicActivity"
             android:exported="false"
             android:label="@string/title_activity_compose_basic"
             android:theme="@style/Theme.JetpackCompose">
@@ -51,7 +51,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.compose.layout.ui.JetCoffeeActivity"
+            android:name=".compose.layout.ui.JetCoffeeActivity"
             android:exported="false"
             android:label="@string/title_activity_jet_coffee"
             android:theme="@style/Theme.JetpackCompose">
@@ -61,11 +61,11 @@
         </activity>
         <activity
             android:name="com.taufik.jetpackcompose.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetpackCompose" />
         <activity
-            android:name=".ui.compose.navigation.jetreward.JetRewardActivity"
+            android:name=".compose.navigation.jetreward.JetRewardActivity"
             android:exported="true"
             android:label="@string/title_activity_jet_reward"
             android:theme="@style/Theme.JetpackCompose">

@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.taufik.jetpackcompose.R
 import com.taufik.jetpackcompose.compose.state.model.MenuItem
-import com.taufik.jetpackcompose.compose.state.ui.ui.theme.JetpackComposeTheme
+import com.taufik.jetpackcompose.compose.state.ui.theme.JetpackComposeTheme
 import com.taufik.jetpackcompose.compose.state.utils.rememberMyNavDrawerState
 
 class NavigationDrawerActivity : ComponentActivity() {
