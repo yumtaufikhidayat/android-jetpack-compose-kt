@@ -2,10 +2,10 @@
     <string name="app_name">Jetpack Compose</string>
 
     <!--Compose Basic App-->
-    <string name="title_activity_compose_basic">ComposeBasicActivity</string>
+    <string name="title_activity_compose_basic">Compose Basic App</string>
 
     <!--Jet Coffee App-->
-    <string name="title_activity_jet_coffee">JetCoffeeActivity</string>
+    <string name="title_activity_jet_coffee">JetCoffee App</string>
     <string name="placeholder_search">Cari kopi pilihanmu!</string>
     <string name="category_all">All</string>
     <string name="category_americano">Americano</string>
@@ -23,7 +23,7 @@
     <string name="menu_profile">Profile</string>
 
     <!--Temperature App-->
-    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="title_activity_temperature">Temperature App</string>
     <string name="stateful_converter">Stateful Converter</string>
     <string name="stateless_converter">Stateless Converter</string>
     <string name="two_way_converter">Two Way Converter</string>
@@ -32,7 +32,7 @@
     <string name="enter_temperature">Enter temperature in %s</string>
 
     <!--Navigation Drawer app-->
-    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="title_activity_navigation_drawer">Navigation Drawer App</string>
     <string name="hello_world">Hello World</string>
     <string name="menu">Menu</string>
     <string name="hello_from_nav_drawer">Hello From Navigation Drawer</string>
@@ -44,12 +44,12 @@
     <string name="subscribed_info">Subscribed. You will informed when the feature is ready</string>
 
     <!--Jet Hero app-->
-    <string name="title_activity_jet_hero">JetHeroActivity</string>
+    <string name="title_activity_jet_hero">JetHero App</string>
     <string name="scroll_to_top">Scroll to Top</string>
     <string name="search_hero">Cari pahlawanmu</string>
 
     <!--Jet Reward App-->
-    <string name="title_activity_jet_reward">JetRewardActivity</string>
+    <string name="title_activity_jet_reward">JetReward App</string>
     <string name="menu_cart">Keranjang</string>
     <string name="required_point">%d Pts</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
@@ -60,4 +60,11 @@
     <string name="back">Back</string>
     <string name="dicoding_reward">Dicoding Reward</string>
     <string name="share_message">Hey, I have redeem %1$d rewards in Dicoding with total %2$d Points. Do you want too?</string>
+
+    <!--Testing App-->
+    <string name="title_activity_testing">Testing App</string>
+    <string name="enter_length">Masukkan panjang</string>
+    <string name="enter_width">Masukkan lebar</string>
+    <string name="count">Hitung!</string>
+    <string name="result">Hasil: %s</string>
 </resources>
