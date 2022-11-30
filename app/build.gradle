@@ -79,4 +79,5 @@ dependencies {
     /* UI Testing for Compose */
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    androidTestImplementation "androidx.navigation:navigation-testing:2.5.3"
 }
