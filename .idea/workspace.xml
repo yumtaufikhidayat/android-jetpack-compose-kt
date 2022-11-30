@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement semantic and tag ui testing.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement ui testing on navHost.">
       <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/taufik/jetpackcompose/compose/navigation/jetreward/JetRewardAppTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/taufik/jetpackcompose/compose/navigation/jetreward/ScreenAssertions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
@@ -528,13 +528,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
     </task>
-    <task id="LOCAL-00022" summary="Add menu category and section text.">
-      <created>1668556690878</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1668556690878</updated>
-    </task>
     <task id="LOCAL-00023" summary="Add menu category and section text.">
       <created>1668556791117</created>
       <option name="number" value="00023" />
@@ -871,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669765592827</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Implement ui testing on navHost.">
+      <created>1669767097614</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1669767097614</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -886,7 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add vertical scroll on menu section." />
     <MESSAGE value="Add slot base compose." />
     <MESSAGE value="Add bottom navigation compose." />
     <MESSAGE value="Move package to each component." />
@@ -911,6 +910,7 @@
     <MESSAGE value="Implement ui test on compose." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Implement semantic and tag ui testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement semantic and tag ui testing." />
+    <MESSAGE value="Implement ui testing on navHost." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement ui testing on navHost." />
   </component>
 </project>
