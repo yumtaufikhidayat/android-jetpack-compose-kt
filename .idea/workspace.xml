@@ -9,15 +9,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement ui testing on navHost.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Update project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.8.102:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/taufik/.android/avd/Pixel_3_XL_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,6 +67,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="interoperability/compose-view-on-xml" />
+                    <option name="lastUsedInstant" value="1669937450" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1669767141" />
                   </RecentBranch>
@@ -80,10 +85,6 @@
                   <RecentBranch>
                     <option name="branchName" value="testing/learn-simple-ui-testing-compose" />
                     <option name="lastUsedInstant" value="1669591380" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="navigation/learn-navigate-to-other-app-jetreward" />
-                    <option name="lastUsedInstant" value="1669531282" />
                   </RecentBranch>
                 </list>
               </option>
@@ -513,13 +514,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
     </task>
-    <task id="LOCAL-00024" summary="Add menu section.">
-      <created>1668641280734</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1668641280734</updated>
-    </task>
     <task id="LOCAL-00025" summary="Add menu section.">
       <created>1668641292186</created>
       <option name="number" value="00025" />
@@ -856,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669767113328</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Update project.">
+      <created>1669937159198</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1669937159221</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -893,9 +894,9 @@
     <MESSAGE value="Add navigate to another app by using intent." />
     <MESSAGE value="Remove ExampleInstrumentedTest.kt clas." />
     <MESSAGE value="Implement ui test on compose." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Implement semantic and tag ui testing." />
     <MESSAGE value="Implement ui testing on navHost." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement ui testing on navHost." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
 </project>

@@ -34,10 +34,11 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures {
+        viewBinding true
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.1.1'
+        kotlinCompilerExtensionVersion '1.2.0'
     }
     packagingOptions {
         resources {
@@ -56,7 +57,7 @@ dependencies {
     implementation 'androidx.activity:activity-compose:1.6.1'
     implementation "androidx.compose.ui:ui:$compose_ui_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
-    implementation 'androidx.compose.material:material:1.3.1'
+    implementation "androidx.compose.material:material:$compose_ui_version"
     implementation "androidx.compose.material:material-icons-extended:$compose_ui_version"
 
     /* Testing */
@@ -66,12 +67,14 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    implementation "androidx.constraintlayout:constraintlayout-compose:1.0.1" // ConstraintLayout
 
     /* Coil */
     implementation "io.coil-kt:coil-compose:2.2.0"
 
     /* ViewModel for Compose*/
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1"
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_ui_version" // observeAsState
 
     /* Navigation Component for Compose */
     implementation "androidx.navigation:navigation-compose:2.5.3"
