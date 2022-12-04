@@ -9,21 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement starter project and update themes.xml.">
+    <list default="true" id="f510ae01-d4eb-49f0-a479-5ea760edc04b" name="Changes" comment="Implement interoperability compose view on xml.">
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/interoperability/ui/list/NewsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/interoperability/ui/list/NewsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_news.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/interoperability/ui/detail/NewsDetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/taufik/jetpackcompose/compose/interoperability/ui/detail/NewsDetailActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +80,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="interoperability/compose-view-on-xml" />
-                    <option name="lastUsedInstant" value="1669937450" />
+                    <option name="branchName" value="interoperability/compose-on-activity" />
+                    <option name="lastUsedInstant" value="1670124660" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1669767141" />
+                    <option name="lastUsedInstant" value="1670124595" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="interoperability/compose-view-on-xml" />
+                    <option name="lastUsedInstant" value="1669937450" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="testing/learn-ui-testing-navhost-compose" />
@@ -104,10 +98,6 @@
                   <RecentBranch>
                     <option name="branchName" value="testing/learn-semantic-and-tag-ui-testing-compose" />
                     <option name="lastUsedInstant" value="1669763715" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="testing/learn-simple-ui-testing-compose" />
-                    <option name="lastUsedInstant" value="1669591380" />
                   </RecentBranch>
                 </list>
               </option>
@@ -545,13 +535,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
     </task>
-    <task id="LOCAL-00027" summary="Add vertical scroll on menu section.">
-      <created>1668641448595</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1668641448595</updated>
-    </task>
     <task id="LOCAL-00028" summary="Update project.">
       <created>1668728925573</created>
       <option name="number" value="00028" />
@@ -888,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670122114984</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Implement interoperability compose view on xml.">
+      <created>1670124569762</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1670124569762</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -903,7 +893,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Move package to each component." />
     <MESSAGE value="Add stateful converter." />
     <MESSAGE value="Add stateless converter." />
     <MESSAGE value="Add two ways temperature converter." />
@@ -928,6 +917,7 @@
     <MESSAGE value="Update project." />
     <MESSAGE value="Update gradle app module by adding some dependencies." />
     <MESSAGE value="Implement starter project and update themes.xml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement starter project and update themes.xml." />
+    <MESSAGE value="Implement interoperability compose view on xml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement interoperability compose view on xml." />
   </component>
 </project>
