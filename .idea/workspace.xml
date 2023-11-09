@@ -578,13 +578,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
     </task>
-    <task id="LOCAL-00030" summary="Add slot base compose.">
-      <created>1668729695022</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1668729695022</updated>
-    </task>
     <task id="LOCAL-00031" summary="Add bottom navigation compose.">
       <created>1668730813290</created>
       <option name="number" value="00031" />
@@ -921,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699436480988</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Update local.properties.">
+      <created>1699504999222</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1699504999222</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
