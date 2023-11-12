@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -578,13 +578,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667306642098</updated>
     </task>
-    <task id="LOCAL-00033" summary="Move package to each component.">
-      <created>1668732274939</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1668732274939</updated>
-    </task>
     <task id="LOCAL-00034" summary="Add stateful converter.">
       <created>1668814341539</created>
       <option name="number" value="00034" />
@@ -921,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699584324697</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Update local project.">
+      <created>1699654865700</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1699654865700</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
